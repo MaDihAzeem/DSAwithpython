@@ -1,0 +1,11 @@
+empty_tuple=()
+brothers=('Munir','Mubshair','jawad','Aman',)
+sisters=('Madiha','Subbooh','Faiza','Rabia','Alishba','Haniya','javaria')
+siblings=brothers+sisters
+print(len(siblings))
+siblings=list(siblings)
+siblings[10:11]='jamshed','shahana'
+siblinga=tuple(siblings)
+print(siblings)
+family_members=siblings
+print(family_members)
