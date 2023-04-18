@@ -18,6 +18,7 @@ print(myStack.push('A'))
 print(myStack.push('B'))
 print(myStack.push('C'))
 print(myStack.push('D'))
+print(myStack.pop())
 print('peek item',myStack.peek())
 
 
